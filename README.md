@@ -117,6 +117,7 @@ plt.ylabel("Tweets Polarity")
 plt.legend(target_list, loc="center right", bbox_to_anchor=(1.25, 0.5))
 plt.xlim(100, 1)
 plt.ylim(-1, 1)
+plt.savefig("output.png")
 plt.show()
 ```
 
@@ -129,13 +130,3 @@ plt.show()
 # Export results to csv file
 df.to_csv("output.csv", index=None)
 ```
-
-
-```python
-plt.savefig("Output.png")
-```
-
-
-    <Figure size 432x288 with 0 Axes>
-
-# news_mood_sentimental_analysis
